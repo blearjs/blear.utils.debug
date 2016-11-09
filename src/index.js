@@ -18,7 +18,7 @@ var fun = require('blear.utils.function');
 exports.deprecate = function (fn, deprecated) {
     return function () {
         if (typeof DEBUG !== 'undefined' && DEBUG === true) {
-            console.warn(deprecated || fun.name(fn) + ' 已被废弃，请勿再使用。');
+            console.warn(deprecated || fun.name(fn) + ' 方法已被废弃，请及时修改！');
         }
 
         return fn.apply(this, arguments);
