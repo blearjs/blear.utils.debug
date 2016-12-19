@@ -1,6 +1,6 @@
 {
   "name": "blear.utils.debug",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "debug",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
@@ -36,9 +36,7 @@
     "url": "https://github.com/blearjs/blear.utils.debug/issues"
   },
   "dependencies": {},
-  "peerDependencies": {
-    "blear.utils.function": "1.x"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
